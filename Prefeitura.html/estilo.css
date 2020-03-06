@@ -1,0 +1,43 @@
+         
+ #cabecalho{
+    background: darkgreen; /*Cor de Fundo*/ 
+    font-family: 'Courier New', Courier, monospace; /* Tipo de fonte*/
+    font-size: 20; /* Tamanho da letra*/
+    padding-top: 50px
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+  
+}
+#menu ul li a {
+    padding: 5px 100px; /*posição dos nome do menu */
+    display: inline-block;
+
+ /* visual do link */
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+#menu ul li { display: inline; }
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #009900;
+}
+
+
+
+#titulo{
+    font-style: normal;
+    font-size: 20;
+ 
+}
+
+#rodape{
+    background: darkgreen; /*Cor de Fundo*/ 
+    padding-top: 70px
+}
