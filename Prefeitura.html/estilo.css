@@ -1,16 +1,16 @@
-         
- #cabecalho{
-    background: darkgreen; /*Cor de Fundo*/ 
+#cabecalho{
+    background: #64A9A4; /*Cor de Fundo*/ 
     font-family: 'Courier New', Courier, monospace; /* Tipo de fonte*/
     font-size: 20; /* Tamanho da letra*/
     padding-top: 50px
+    
 }
 
 #menu ul {
     padding:0px;
     margin:0px;
     list-style:none;
-  
+    text-align: center;
 }
 #menu ul li a {
     padding: 5px 100px; /*posição dos nome do menu */
@@ -26,18 +26,55 @@
 #menu ul li a:hover {
     background-color:#D6D6D6;
     color: #6D6D6D;
-    border-bottom:3px solid #009900;
+    border-bottom:3px solid   #519490;
+
 }
-
-
-
 #titulo{
     font-style: normal;
     font-size: 20;
- 
 }
 
 #rodape{
-    background: darkgreen; /*Cor de Fundo*/ 
+    background: #64A9A4; /*Cor de Fundo*/ 
     padding-top: 70px
+}
+#carouselExampleControls a {
+   
+    border-bottom:0px solid  #0099cc;
+    margin-top: 0px; margin-left: 224px; margin-right: 223px;
+}
+
+#carouselExampleControls a:hover {
+    background-color:#FFFFFF;
+    opacity:0.20;
+    border-bottom:0px solid  #0099cc;
+
+}
+#carouselExampleControls div div img {
+    width: 750;
+    height: 600; 
+    margin-left: auto;
+    margin-right: auto;
+	float: center;
+    list-style:none;
+
+    
+ /* Formatação dos textos das páginas */    
+}
+#textoQ{
+    width: 500px; 
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace; /* Tipo de fonte*/
+}
+
+#textoH{
+    width: 500px; 
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace; /* Tipo de fonte*/
+}
+
+#textoA{
+    width: 500px; 
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace; /* Tipo de fonte*/
 }
