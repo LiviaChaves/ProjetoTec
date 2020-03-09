@@ -1,3 +1,9 @@
+#corpo{
+    background: #f0f0f5;
+    box-shadow:5px 3px 3px #e6e6e6;
+
+}
+
 #cabecalho{
     background: #64A9A4; /*Cor de Fundo*/ 
     font-family: 'Courier New', Courier, monospace; /* Tipo de fonte*/
@@ -75,6 +81,28 @@
 
 #textoA{
     width: 500px; 
-    margin: 20px;
+    margin: 40px;
     font-family: 'Courier New', Courier, monospace; /* Tipo de fonte*/
+    box-shadow:7px 5px 3px #e6e6e6;
+    background: #ffffff
+}
+
+#img1{
+    
+
+}
+#img2{
+    
+   
+
+}
+#img3{
+   
+
+}
+#img4{
+ 
+}
+#img5{
+
 }
