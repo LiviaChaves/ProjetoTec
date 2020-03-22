@@ -1,17 +1,13 @@
-#corpo{
-    background: #f0f0f5;
-    box-shadow:5px 3px 3px #e6e6e6;
-
-}
-
 #cabecalho{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: #64A9A4; /*Cor de Fundo*/ 
-    font-family: 'Courier New', Courier, monospace; /* Tipo de fonte*/
     font-size: 20; /* Tamanho da letra*/
     padding-top: 50px
     
+    
 }
 
+/*Estilo do menu principal */
 #menu ul {
     padding:0px;
     margin:0px;
@@ -30,11 +26,59 @@
 #menu ul li { display: inline; }
 
 #menu ul li a:hover {
-    background-color:#D6D6D6;
-    color: #6D6D6D;
+    background-color:#6D6D6D;
+
     border-bottom:3px solid   #519490;
 
 }
+
+/* Fim do estilo do menu principal */
+
+#Contatos{
+    width: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none; 
+    background: #64A9A4;
+    color: #ffffff;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    
+}
+
+
+/*Estilo do menu lateral */
+#nav-bar{
+    margin: 10;
+    padding: 0;
+    background: #64A9A4;
+    list-style-type: none; 
+    width: 250px;
+} 
+
+#nav-bar li{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar a {
+    display: block;
+    color: #FFF;
+    text-decoration: none; /* link exibido sem sublinhado */
+    padding: 0 15px;
+    line-height: 2.5;
+    border-bottom: 1px solid #FFF;
+    
+} 
+
+#nav-bar a:hover {
+    background: #6D6D6D;
+
+
+}
+
+/*Fim do Estilo do menu lateral */
+
 #titulo{
     font-style: normal;
     font-size: 20;
@@ -44,6 +88,8 @@
     background: #64A9A4; /*Cor de Fundo*/ 
     padding-top: 70px
 }
+
+/*Slide de fotos*/ 
 #carouselExampleControls a {
    
     border-bottom:0px solid  #0099cc;
@@ -56,6 +102,14 @@
     border-bottom:0px solid  #0099cc;
 
 }
+
+#carouselExampleControls div div p {
+ 
+	text-align: center;
+
+    
+ 
+}
 #carouselExampleControls div div img {
     width: 750;
     height: 600; 
@@ -64,45 +118,55 @@
 	float: center;
     list-style:none;
 
+
+}
+
+#link {
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    font-size: 30px;  
+}
+
+#link  li:hover{
+
+}
+/* Fim Slide de fotos*/ 
+
     
  /* Formatação dos textos das páginas */    
-}
 #textoQ{
-    width: 500px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
     margin: 20px;
-    font-family: 'Courier New', Courier, monospace; /* Tipo de fonte*/
+ 
 }
 
 #textoH{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 500px; 
     margin: 20px;
-    font-family: 'Courier New', Courier, monospace; /* Tipo de fonte*/
+    text-align: justify;
+   
 }
 
+
 #textoA{
-    width: 500px; 
-    margin: 40px;
-    font-family: 'Courier New', Courier, monospace; /* Tipo de fonte*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-shadow:7px 5px 3px #e6e6e6;
     background: #ffffff
 }
 
-#img1{
+#textoA #cabeçalho{
+    text-align: center
+}
+
+#descrição h3{
     
-
+    text-align: left
 }
-#img2{
+.carousel-item #descrição p{
     
-   
+    text-align:justify;
+}
 
-}
-#img3{
-   
-
-}
-#img4{
- 
-}
-#img5{
-
-}
