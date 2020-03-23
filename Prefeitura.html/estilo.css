@@ -46,14 +46,32 @@
     
 }
 
+#RedesSociais {
+    list-style-type: none; 
+    margin-left: 1058px;
+    margin-top: -100px;
+    list-style:none;
+    background: #64A9A4;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  
+}
+#RedesSociais li a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+R#edesSociais li a:hover {
+    background-color:#6D6D6D;
 
-/*Estilo do menu lateral */
+    border-bottom:3px solid   #519490;
+
+}
 #nav-bar{
     margin: 10;
     padding: 0;
     background: #64A9A4;
     list-style-type: none; 
-    width: 250px;
+
 } 
 
 #nav-bar li{
@@ -62,7 +80,9 @@
 }
 
 #nav-bar a {
+    text-align: center;
     display: block;
+    font-size: 20px;
     color: #FFF;
     text-decoration: none; /* link exibido sem sublinhado */
     padding: 0 15px;
@@ -124,9 +144,9 @@
 #link {
     list-style-type: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: right;
-    font-size: 30px;  
-}
+    
+    font-size: 20px;
+    text-align: center;}
 
 #link  li:hover{
 
@@ -152,9 +172,11 @@
 
 
 #textoA{
+    margin: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-shadow:7px 5px 3px #e6e6e6;
     background: #ffffff
+   
 }
 
 #textoA #cabeçalho{
