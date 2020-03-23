@@ -1,0 +1,194 @@
+#cabecalho{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #64A9A4; /*Cor de Fundo*/ 
+    font-size: 20; /* Tamanho da letra*/
+    padding-top: 50px
+    
+    
+}
+
+/*Estilo do menu principal */
+#menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    text-align: center;
+}
+#menu ul li a {
+    padding: 5px 100px; /*posição dos nome do menu */
+    display: inline-block;
+
+ /* visual do link */
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+#menu ul li { display: inline; }
+
+#menu ul li a:hover {
+    background-color:#6D6D6D;
+
+    border-bottom:3px solid   #519490;
+
+}
+
+/* Fim do estilo do menu principal */
+
+#Contatos{
+    width: 250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none; 
+    background: #64A9A4;
+    color: #ffffff;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    
+}
+
+#RedesSociais {
+    list-style-type: none; 
+    margin-left: 1058px;
+    margin-top: -100px;
+    list-style:none;
+    background: #64A9A4;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  
+}
+#RedesSociais li a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+R#edesSociais li a:hover {
+    background-color:#6D6D6D;
+
+    border-bottom:3px solid   #519490;
+
+}
+#nav-bar{
+    margin: 10;
+    padding: 0;
+    background: #64A9A4;
+    list-style-type: none; 
+
+} 
+
+#nav-bar li{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar a {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none; /* link exibido sem sublinhado */
+    padding: 0 15px;
+    line-height: 2.5;
+    border-bottom: 1px solid #FFF;
+    
+} 
+
+#nav-bar a:hover {
+    background: #6D6D6D;
+
+
+}
+
+/*Fim do Estilo do menu lateral */
+
+#titulo{
+    font-style: normal;
+    font-size: 20;
+}
+
+#rodape{
+    background: #64A9A4; /*Cor de Fundo*/ 
+    padding-top: 70px
+}
+
+/*Slide de fotos*/ 
+#carouselExampleControls a {
+   
+    border-bottom:0px solid  #0099cc;
+    margin-top: 0px; margin-left: 224px; margin-right: 223px;
+}
+
+#carouselExampleControls a:hover {
+    background-color:#FFFFFF;
+    opacity:0.20;
+    border-bottom:0px solid  #0099cc;
+
+}
+
+#carouselExampleControls div div p {
+ 
+	text-align: center;
+
+    
+ 
+}
+#carouselExampleControls div div img {
+    width: 750;
+    height: 600; 
+    margin-left: auto;
+    margin-right: auto;
+	float: center;
+    list-style:none;
+
+
+}
+
+#link {
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-size: 20px;
+    text-align: center;}
+
+#link  li:hover{
+
+}
+/* Fim Slide de fotos*/ 
+
+    
+ /* Formatação dos textos das páginas */    
+#textoQ{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 20px;
+ 
+}
+
+#textoH{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 500px; 
+    margin: 20px;
+    text-align: justify;
+   
+}
+
+
+#textoA{
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow:7px 5px 3px #e6e6e6;
+    background: #ffffff
+   
+}
+
+#textoA #cabeçalho{
+    text-align: center
+}
+
+#descrição h3{
+    
+    text-align: left
+}
+.carousel-item #descrição p{
+    
+    text-align:justify;
+}
+
