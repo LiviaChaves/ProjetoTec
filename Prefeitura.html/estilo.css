@@ -144,13 +144,14 @@ R#edesSociais li a:hover {
 #link {
     list-style-type: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
     font-size: 20px;
-    text-align: center;}
-
-#link  li:hover{
-
+    text-align: center;
+ 
 }
+
+
+
+
 /* Fim Slide de fotos*/ 
 
     
@@ -162,15 +163,34 @@ R#edesSociais li a:hover {
  
 }
 
-#textoH{
+#textoH {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 500px; 
     margin: 20px;
     text-align: justify;
+    
    
 }
-
-
+#textoH  img{
+    width: 380;
+    height: 380;
+}
+#textoH #img1{
+    margin-block-start: -760px;
+    margin-left: 520px;       
+}
+#textoH #img2{
+    margin-block-start: -360px;
+    margin-left: 520px;       
+}
+#textoH #img3{
+    margin-block-start: -780px;
+    margin-left: 920px;       
+}
+#textoH #img4{
+    margin-block-start: -380px;
+    margin-left: 920px;       
+}
 #textoA{
     margin: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
